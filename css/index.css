@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    
+}
+.First{
+    background-image: url('Assets/background\ image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+.desktop{
+   margin: 0;
+   height: 100px;
+   width: 95%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 30px;
+}
+.nav-element{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signin{
+    border: none;
+    background-color: #fbbc05;
+    padding:  8px 16px;
+    color: #fffbfb;
+    justify-self: right;
+    gap: -50%;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.signin:hover{
+    background-color: #644c04;
+}
+.fa-globe{
+    font-size: 20px;
+    color: #fffbfb;
+}
+.a{
+    margin-top: 10px;
+}
+.fa-user{
+    font-size: 20px;
+    color: #fffbfb;
+}
+a{
+    text-decoration: none;
+    color: #fffbfb;
+}
+.ok{
+    color: #fffbfb;
+    margin-top: 10px;
+}
+.sub-elmt{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-nav{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -40px;
+
+}
+.main{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.ok{
+    width: 24px;
+    row-gap: 40px;
+}
+.sub-con{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    padding-left: 40px;
+    color: #fffbfb;
+}
+.ko-1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fffbfb;
+    grid-template-rows: 80px;
+    height: 40px;
+  }
+.btn{
+    border-radius: 35px;
+    border: none;
+    background-color: #fbbc05;
+    padding: 10px 16px;
+    align-items: end;
+    position: relative;
+    right: 5px;
+    top: 2px;
+    bottom: 5px;
+}
+.btn-f{
+    border: none;
+    background-color: transparent;
+    padding: 8px 16px;
+    margin-top: 3px;
+    flex-grow: 1;
+    font-size: 16px;
+    outline: none;
+}
+.component{
+    margin: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    background-color: #070c90;
+    background-size: 100%;
+}
+.sub-comp{
+    margin: 20px;
+    right: 0;
+    padding-left: 20px;
+    display: flex;
+    width: 250px;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 16px; 
+    position: relative;
+    overflow: visible;
+    background-color: #fffbfb;
+    border-radius: 10px;
+}
+.bi-camera{
+    padding: 8px 16px;
+}
+.benit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.okay{
+    font-size: 50px;
+    font-weight: bold
+}
+.tik-img{
+  height: 250px;
+  object-fit: cover;
+  width: 250px;
+}
+.discounted-price{
+    font-size: larger;
+}
+h4{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: large;
+  font-style: normal;
+    color: #1e05fb;
+}
+.edit{
+    color:red;
+}
+.content{
+    padding-left: 50px;
+}
+.field{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #ccc;
+    width: 100%;
+    flex-direction: column;
+  }
+  .subscription-form {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 40px;
+  }
+
+  .subscription-form input[type="email"] {
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 16px;
+    outline: none;
+    flex-grow: 1;
+    width: 300px;
+    border-radius: 10px;
+  }
+
+  .subscription-form button {
+    border: 1px solid #ccc;
+    padding: 15px 25px;
+    background-color: #FFD700; 
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    border-radius: 10px;
+  }
+  .foot{
+    color: #fffbfb;
+    margin: 0;
+    padding-top: 12px;
+    display:flex;
+    width:100%;
+    height: 40vh;
+    justify-content: space-between;
+    padding-left: 12px;
+    background-color: grey
+  }
+  .tap{
+    color: #070c90;
+    font-size: 30px;
+    font-weight: bold;
+  }
