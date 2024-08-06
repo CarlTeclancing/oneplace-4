@@ -1,0 +1,182 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link rel="stylesheet" href="./css/product detail.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.5.2-web/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <div class="main-container">
+
+
+    <div class="main">
+        <div class="logos">
+            <img src="./Images/logo.png" alt="" width="90px">
+           </div>
+        <div class="sub-main">
+         <a href="../reports.html"><button class="btn"><i class="fa fa-tachometer"></i>&nbsp;&nbsp; Dashboard</button></a>
+         <a href="../orders/all orders.html"><button class="btn"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp; Order</button></a>
+         <a href="#"><button class="status"><i class="fa fa-box"></i>&nbsp;&nbsp;Product</button></a>
+         <a href="../setting order.html"><button class="btn"><i class="fa fa-cog"></i>&nbsp;&nbsp;Setting</button></a>
+        </div>
+        <div class="sub">
+            <div class="line"></div>
+            <button class="btn logout"><i class="fa fa-sign-out">&nbsp;&nbsp;</i>Log out</button>
+        </div>
+    </div>
+
+    <div class="container">
+
+     
+       <div class="top-nav"> 
+        <h2>Product</h2>
+        <div class="sub-container">
+            <div class="search">
+             <i class="fa fa-search"></i><input type="text" class="search-bar" placeholder="search here...">
+            </div>
+            <div class="nationality">
+                <img  src="./Images/iplace images/CMR.png" width="25px" alt="">
+                <select>
+                    <option value="CMR">CMR(EN)</option>
+                    <option value="CMR">USA(EN)</option>
+                    <option value="CMR">NGR(EN)</option>
+                    <option value="CMR">CMR(EN)</option>
+                    <option value="CMR">CMR(EN)</option>
+                    <option value="CMR">CMR(EN)</option>
+                </select>
+            </div>
+            <a href="../notifications.html"><i class="fa fa-bell"></i></a>
+            <a href="../profile.html"><div class="profile">
+                <img class="img" src="./Images/hand some successful man smiling.jpg" width="50px" height="50px" alt="">&nbsp;&nbsp;
+                <span>Tih Joseph<br><span class="name">Admin</span></span>
+            </div></a>
+        </div>
+    </div>
+
+     <div class="card">
+        <div class="head">
+            <h3>Add Product</h3>
+            <i class="fa fa-times"></i>
+        </div>
+
+       <div class="boxes">
+          <div class="box">
+            <p>Add image</p>
+            <div class="image-box">
+                <img src="./Images/upload image.png" width="100px" alt=""><br>
+                <div>
+                <i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="text">upload image here</span>
+              </div>
+              </div>
+
+            
+             <h4>Categories</h4>
+             <div class="sub-box">
+                
+
+                <div class="input">
+                  <label for="product category">Product category</label>
+                <input class="cart" type="text" name="category" id="category">
+                  <select name="category" class="cart-1" id="cart-1">
+                    <option value=""></option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Cloths">cloths</option>
+                    <option value="shoes">shoes</option>
+                    <option value="bags">bags</option>
+                    <option value="shirts">shirts</option>
+                  </select>
+               </div>
+               
+               <div class="input">
+                <label for="product category">Product category</label><br>
+                <input class="cart" type="text" name="category" id="category">
+                  <select name="category" id="" class="cart-1">
+                    <option value=""></option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Cloths">cloths</option>
+                    <option value="shoes">shoes</option>
+                    <option value="bags">bags</option>
+                    <option value="shirts">shirts</option>
+                  </select>
+               </div>   
+
+             </div>
+             
+            
+          </div>
+       
+
+         
+       <div class="box">
+
+        <p>Product information</p>
+         <div class="pdt-infos">
+          <div> 
+          <label for="produc-name">Product name</label><br>
+          <input class="pdt-information" type="text" placeholder="enter product name" name="produc-name" id="pdt-name">
+          </div>
+
+          <div> 
+          <label for="brand">Brand</label><br>
+          <input class="pdt-information" type="text" placeholder="enter brand" name="brand" id="brand">
+          </div> 
+
+          <div> 
+          <label for="produc-name">location</label><br>
+          <input class="pdt-information" type="text" placeholder="enter location" name="location" id="location">
+          </div>
+
+          <div class="div">  
+          <label for="desc">Description</label><br>
+          <textarea name="description" id="desc" placeholder=" detailed description of product"></textarea>
+        </div>
+        </div>
+  
+ <div class="end">
+  <div class="top">
+
+  <div class="down">
+   <label for="price">Price</label><br>
+   <input class="label label-1" type="number"placeholder="XAF"><br><br>
+  </div>
+
+  <div class="quality">
+    <label for="quantity">Quantity</label><br>
+    <input class="peices" type="number"placeholder="XAF">
+    <select name="quantity" id="quantity">
+      <option value="nothing"></option>
+         <option value="10pieces">10 pieces</option>
+         <option value="50pieces">50 pieces</option>
+         <option value="100pieces">100 pieces</option>
+         <option value="200+pieces">200+ pieces</option>
+         <option value="1000+pieces">1000+ pieces</option>
+    </select>
+   </div>
+</div>
+
+  <div class="top-2">
+    <div class="down">
+   <label for="address">Address</label><br>
+   <input class="label" type="text" placeholder="where do you live?">
+    </div>
+
+   <button class="add-btn">Add product</button>
+  </div>
+</div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

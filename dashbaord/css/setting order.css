@@ -1,0 +1,248 @@
+/*box1 :FFE3E8, box2:FFF5DB, box3:DDFDE8, box4:F5E7FF,
+icon1:D76F84, icon2:F1937C  icon3:3ADA48  icon4:#CC8DFF
+  */
+
+  body{
+    background-color: #ededed;
+    font-family:Arial, Helvetica, sans-serif 
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 20%;
+    height: 720px;
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: left;
+    background-color: #070C90;
+}
+.sub-main{
+    width: 55%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    top: 20px; 
+}
+.logos{
+    margin-top: 32px;
+    margin-right: 60px;
+    width: 92px;
+    background-color: white;
+}
+.line{
+    width: 200px;
+    height: 0px;
+    margin: 24px;
+    border: 1px solid rgba(190, 190, 190, 0.848);
+}
+.sub{
+    position: relative;
+    top: 250px;
+}
+
+.btn{
+    text-align: justify;
+    border: none;
+    width: 150px;
+    color: white;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 17px;   
+}
+.btn:hover{
+   border-color:#FBBC05;
+   color: #FBBC05;
+   border: 1px solid;
+   cursor: pointer;
+}.p{
+    background-color: #FBBC05;
+    color: white;
+    border: none;
+}
+.container{
+   width: 80%;
+   height: 720px;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+ 
+}
+.top-nav{
+width: 90.58%;
+padding-top: 8px;
+height: 70px;
+padding-left:52px;
+padding-right: 52px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: white;
+}
+.sub-container{
+    width: 75%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nationality, .profile{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+   color: rgba(69, 69, 69, 0.838);
+   font-size: 14px;
+}
+
+.img{
+  border-radius: 30px;
+}
+.fa{
+  font-size: 18px;
+}
+.fa-search{
+    position: relative;
+    left: 300px;
+    
+}
+
+.fa-bell{
+    color: orange;
+}
+.search-bar{
+    width: 310px;
+    padding-left: 12px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f6f6f681;
+}
+option{
+    font-weight: 500;
+}
+select{
+    width: 80px;
+    height: 24px;
+    outline: none;
+    border: none;
+}
+
+.settings{
+    width: 50%;
+    height: 80px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.link{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 270px;     
+}
+.link:hover{
+    border-bottom: 2px solid #FBBC05;
+    color: #FBBC05;
+}
+.active{
+    border-bottom: 2px solid #FBBC05;
+    color: #FBBC05;
+}
+
+h2{
+    color: #070C90;
+}
+h3{
+    width: 90%;
+    color: #070C90;   
+}
+.first-orders{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tick{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-notification{
+    width: 100%;
+    height: 160px;
+    cursor: pointer;
+    padding-left: 32px;
+    padding-right: 24px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(213, 213, 213);
+}
+.mini{
+    width: 95%;
+    height: 70px;
+    background-color: ;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 8px;
+}
+input[type="checkbox"]{
+    width: 24px;
+    cursor: pointer;
+    accent-color: blue;
+}
+.save{
+    width: 200px;
+    height: 38px;
+    background-color: white;
+    color: #FBBC05;
+    border: 1px solid #FBBC05;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.second-orders{
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.last-order{
+    position: relative;
+    right: 230px;
+}
+
+.F-tick{
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-check{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FBBC05;
+}
+.New-orders{
+    font-size: 18px;
+}
+

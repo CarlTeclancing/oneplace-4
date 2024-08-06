@@ -1,0 +1,224 @@
+/*box1 :FFE3E8, box2:FFF5DB, box3:DDFDE8, box4:F5E7FF,
+icon1:D76F84, icon2:F1937C  icon3:3ADA48  icon4:#CC8DFF
+  */
+
+body{
+    background-color: #ededed;
+    font-family:Arial, Helvetica, sans-serif 
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 20%;
+    height: 720px;
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: left;
+    background-color: #070C90;
+}
+.sub-main{
+    width: 55%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    top: 20px; 
+}
+.logos{
+    margin-top: 32px;
+    margin-right: 60px;
+    width: 92px;
+    background-color: white;
+}
+.line{
+    width: 200px;
+    height: 0px;
+    margin: 24px;
+    border: 1px solid rgba(190, 190, 190, 0.848);
+}
+.sub{
+    position: relative;
+    top: 250px;
+}
+
+.btn{
+    text-align: justify;
+    border: none;
+    width: 150px;
+    color: white;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 17px;   
+}
+.status{
+    background-color: #FBBC05;
+    text-align: justify;
+    border: none;
+    width: 150px;
+    color: white;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 17px; 
+}
+.btn:hover{
+   border-color:#FBBC05;
+   color: #FBBC05;
+   border: 1px solid;
+   cursor: pointer;
+}
+.container{
+   width: 80%;
+   height: 720px;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+ 
+}
+.top-nav{
+width: 90.58%;
+padding-top: 8px;
+height: 70px;
+padding-left:52px;
+padding-right: 52px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: white;
+}
+
+.sub-container{
+    width: 75%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nationality, .profile{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+   color: rgba(69, 69, 69, 0.838);
+   font-size: 14px;
+}
+
+.img{
+  border-radius: 30px;
+}
+.fa{
+  font-size: 18px;
+}
+.fa-search{
+    position: relative;
+    left: 300px;
+    
+}
+
+.fa-bell{
+    color: orange;
+}
+input{
+    width: 310px;
+    padding-left: 12px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f6f6f681;
+}
+option{
+    font-weight: 500;
+}
+select{
+    width: 80px;
+    height: 24px;
+    border: none;
+}
+.all-product{
+    width:90%;
+    height: 30px;
+    padding: 8px;
+    padding-left: 16px;
+    border-radius: 6px;
+    margin: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-left: 6px solid blue;
+}
+.title:hover{
+    border: 1px solid;
+    border-color: #FBBC05;
+    cursor: pointer;
+    color:#FBBC05;
+    background-color: #070c90f8;
+}
+.top:hover{
+    border:none;
+    border-color: transparent;
+    cursor: auto;
+    color:transparent;
+    background-color: #070C90;
+}
+.product{
+    width: 1000px;
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(133, 133, 133);
+    align-items: center;
+    justify-content: center;
+}
+.add-product{
+    width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.h2{
+    font-size: 20px;
+}
+.add{
+    width: 150px;
+    height: 38px;
+    color: white;
+    background-color: #FBBC05;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    left: 440px;
+    bottom: 24px;
+
+}
+.title{
+    width: 1000px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px rgb(132, 132, 132);
+    padding: 4px;
+    padding-left: 24px;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(133, 133, 133);
+
+}
+.bold,.un-bold{
+    width: 300px;
+    text-align: justify;
+}
+.bold{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}

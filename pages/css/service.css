@@ -1,0 +1,138 @@
+body{
+    font-family: "Lucida Sans", sans-serif;
+  }
+  .navbar {
+    width: 90%;
+     display: flex;
+     align-items: center;
+    justify-content: space-between;
+  }
+  .links{
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    margin: 24px;
+  }
+
+  .hero {
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: -50px;
+    padding: 24px;
+    background-size: cover;
+    background-image: url("./Rectangle\ 200.jpg");
+  }
+
+  .card {
+    background-color: white;
+    border: solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .container {
+    display: flex;
+    gap: 10px;
+  }
+  .container-2 {
+    display: flex;
+    gap: 10px;
+  }
+  img {
+    border-radius: 10px;
+    width: 275px;
+    align-self: center;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .text {
+    text-align: left;
+    font-size: 24px;
+  }
+  p {
+    text-align: left;
+  }
+  .paragraph {
+    text-align: right;
+    font-size: 24px;
+  }
+  .context {
+    text-align: right;
+  }
+  span{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+  .footer {
+    color: white;
+    padding-top: 4px;
+    background-color: #070c90;
+  }
+  .row {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    justify-content: space-evenly;
+  }
+  .container-3 {
+    height: 300px;
+    color: white;
+    margin-right: 20px;
+  }
+  .foot{
+      background-color: grey;
+      display: flex;
+     justify-content: space-evenly;
+  }
+  .bi-question-circle-fill{
+      color: white;
+      font-size: 24px;
+  }
+  .bi-wifi{
+      color: white;
+      font-size: 24px;
+  }
+  .bi-cart4{
+      color: white;
+      font-size: 24px;
+  }
+  .bi-file-earmark-lock2{
+      color: white;
+      font-size: 24px;
+  }
+  .bi-geo-alt-fill{
+      color: white;
+      font-size: 24px;
+  }
+  .bi-person-circle{
+      color: white;
+      font-size: 24px;
+  }
+  i{
+      
+  }
+  

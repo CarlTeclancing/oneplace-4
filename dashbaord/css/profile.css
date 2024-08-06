@@ -1,0 +1,245 @@
+/*box1 :FFE3E8, box2:FFF5DB, box3:DDFDE8, box4:F5E7FF,
+icon1:D76F84, icon2:F1937C  icon3:3ADA48  icon4:#CC8DFF
+  */
+
+  body{
+    background-color: #ededed;
+    font-family:Arial, Helvetica, sans-serif 
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 20%;
+    height: 720px;
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: left;
+    background-color: #070C90;
+}
+.sub-main{
+    width: 55%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    top: 20px; 
+}
+.logos{
+    margin-top: 32px;
+    margin-right: 60px;
+    width: 92px;
+    background-color: white;
+}
+.line{
+    width: 200px;
+    height: 0px;
+    margin: 24px;
+    border: 1px solid rgba(190, 190, 190, 0.848);
+}
+.sub{
+    position: relative;
+    top: 250px;
+}
+
+.btn{
+    text-align: justify;
+    border: none;
+    width: 150px;
+    color: white;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 17px;   
+}
+.btn:hover{
+   border-color:#FBBC05;
+   color: #FBBC05;
+   border: 1px solid;
+   cursor: pointer;
+}
+.container{
+   width: 80%;
+   height: 720px;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+ 
+}
+.top-nav{
+width: 90.58%;
+padding-top: 8px;
+height: 70px;
+padding-left:52px;
+padding-right: 52px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: white;
+}
+.sub-container{
+    width: 75%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nationality, .profile{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+   color: rgba(69, 69, 69, 0.838);
+   font-size: 14px;
+}
+
+.img{
+  border-radius: 30px;
+}
+.fa{
+  font-size: 18px;
+}
+.fa-search{
+    position: relative;
+    left: 300px;
+    
+}
+
+.fa-bell{
+    color: orange;
+}
+.search-bar{
+    width: 310px;
+    padding-left: 12px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f6f6f681;
+}
+option{
+    font-weight: 500;
+}
+select{
+    width: 80px;
+    height: 24px;
+    border: none;
+}
+
+.status{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FBBC05;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    .fa-bell{
+        color: rgb(255, 255, 255);
+    }
+}
+.image{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.card{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.personal-infos{
+    
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.supplier-infos{
+    width: 96%;
+    margin: 16px;
+    padding: 12px;
+    padding-top: 0px;
+    box-shadow: 2px 2px 2px 2px rgb(178, 178, 178);
+    background-color: white;
+}
+.profile-picture{
+    width: 60%;
+    line-height: 26px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+.supplier-name{
+    font-size: 18px;
+    font-weight: 700;
+}
+.city{
+    color: rgb(144, 144, 144);
+    font-size: 14px;
+}
+.checked{
+    color: orange;
+}
+.unchecked{
+    color: rgba(146, 146, 146, 0.824);
+}
+.sale{
+    font-size: 18px;
+    color: blue;
+}
+.rank{
+    
+   font-weight: 600;
+   color: black;
+}
+.fa-map-marker{
+    color: orange;
+}
+.about{
+    width: 93.5%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 10px;
+    padding: 24px;
+    padding-top: 0px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(178, 178, 178);
+    text-align: justify;
+}
+.Abt{
+    font-size: 18px;
+    font-weight: 600;
+}
+.name{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+a{  text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    text-align: justify;
+}
+

@@ -2,10 +2,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Report page</title>
-    <link rel="stylesheet" href="./css/Product.css">
-    <link rel="stylesheet" href="./css/fontawesome-free-6.5.2-web/css/all.min.css">
-    <link rel="stylesheet" href="./css/fontawesome-free-6.5.2-web/css/fontawesome.min.css">
+    <title>Product page</title>
+    <link rel="stylesheet" href="./css/dashboard-pdt.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.5.2-web/css/fontawesome.min.css">
 </head>
 <body>
     
@@ -13,16 +13,18 @@
 
 
     <div class="main">
+        <div class="logos">
+            <img src="./Images/logo.png" alt="" width="90px">
+           </div>
         <div class="sub-main">
-         <img src="./Images/logo.png" alt="" width="150px">
-         <button class="btn">Dashboard</button>
-         <button class="btn">Order</button>
-         <button class="btn">Product</button>
-         <button class="btn">Setting</button>
+         <a href="../reports.html"><button class="btn"><i class="fa fa-tachometer"></i>&nbsp;&nbsp; Dashboard</button></a>
+         <a href="../orders/all orders.html"><button class="btn"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp; Order</button></a>
+         <a href="../product/products.html"><button class="status"><i class="fa fa-box"></i>&nbsp;&nbsp;Product</button></a>
+         <a href="../setting order.html"><button class="btn"><i class="fa fa-cog"></i>&nbsp;&nbsp;Setting</button></a>
         </div>
         <div class="sub">
             <div class="line"></div>
-            <button class="btn logout">Log out</button>
+            <button class="btn logout"><i class="fa fa-sign-out">&nbsp;&nbsp;</i>Log out</button>
         </div>
     </div>
 
@@ -30,13 +32,13 @@
 
      
        <div class="top-nav"> 
-        <h2>Dashboard</h2>
+        <h2>Product</h2>
         <div class="sub-container">
             <div class="search">
              <i class="fa fa-search"></i><input type="text" placeholder="search here...">
             </div>
             <div class="nationality">
-                <img src="./Images/iplace images/CMR.png" width="30px" alt="">
+                <img  src="./Images/iplace images/CMR.png" width="25px" alt="">
                 <select>
                     <option value="CMR">CMR(EN)</option>
                     <option value="CMR">USA(EN)</option>
@@ -46,129 +48,101 @@
                     <option value="CMR">CMR(EN)</option>
                 </select>
             </div>
-            <i class="fa fa-notification"></i>
+            <i class="fa fa-bell"></i>
             <div class="profile">
-                <img src="./Images/hand some successful man smiling.jpg" width="80px" alt="">
-                <span><span class="name">Tih Joseph</span><br>Admin</span>
+                <a href="../profile.html"><img class="img" src="./Images/hand some successful man smiling.jpg" width="50px" height="50px" alt="">&nbsp;&nbsp;
+                <span>Tih Joseph<br><span class="name">Admin</span></span></a>
             </div>
         </div>
     </div>
 
-    <div class="report">
-        <h3>Today's scale</h3>
-        <p>Sales summary</p>
 
-        <div class="boxes">
-            <div class="icon"><i class="fa fa-list"></i></div>
-            <h3>$2354</h3>
-            <p>Total Sales</p>
-            <p class="index">-47% last week</p>
+    <div class="all-product">
+        <h2 class="h2">All Products</h2>&nbsp;&nbsp;
+        <p>7 products</p>
+    </div>
+     
+
+        <a href="./product-detials.html"><button class="add">Add product</button></a>
+    <div class="products">
+
+        <div class="top title">
+            <div class="bold">Product</div>
+            <div class="bold">Item id</div>
+            <div class="bold">category</div>
+            <div class="bold">Amount</div>
+            <div class="bold">Brand</div>
+            <div class="bold">Popular</div>
+            <div class="bold">Action</div>
         </div>
 
-        <div class="boxes">
-            <div class="icon"><i class="fa fa-globe"></i></div>
-            <h3>$5460</h3>
-            <p>Total order</p>
-            <p class="index">+47% last week</p>
+        <div class="title">
+            <div class="un-bold">Mackbook Pro</div>
+            <div class="un-bold">#20695</div>
+            <div class="un-bold">Computer</div>
+            <div class="un-bold">XAF320,000</div>
+            <div class="un-bold">Konga</div>
+            <div class="un-bold">Popular</div>
+            <div class="un-bold"><i class="fa fa-ellipsis-h"></i></div>
         </div>
 
-        <div class="boxes">
-            <div class="icon"><i class="fa fa-home"></i></div>
-            <h3>$1600</h3>
-            <p>Prduct sold</p>
-            <p class="index">+29% last week</p>
+        <div class="title">
+            <div class="un-bold">Product</div>
+            <div class="un-bold">#20695</div>
+            <div class="un-bold">category</div>
+            <div class="un-bold">XAF220,000</div>
+            <div class="un-bold">Konga</div>
+            <div class="un-bold">Popular</div>
+            <div class="un-bold"><i class="fa fa-ellipsis-h"></i></div>
         </div>
 
-        <div class="boxes">
-            <div class="icon"><i class="fa fa-cogs"></i></div>
-            <h3>4300</h3>
-            <p>New Customer</p>
-            <p class="index">+47% last week</p>
+        <div class="title">
+            <div class="un-bold">Product</div>
+            <div class="un-bold">#20695</div>
+            <div class="un-bold">category</div>
+            <div class="un-bold">XAF220,000</div>
+            <div class="un-bold">Konga</div>
+            <div class="un-bold">Popular</div>
+            <div class="un-bold"><i class="fa fa-ellipsis-h"></i></div>
+        </div>
+
+        <div class="title">
+            <div class="un-bold">Product</div>
+            <div class="un-bold">#20695</div>
+            <div class="un-bold">category</div>
+            <div class="un-bold">XAF220,000</div>
+            <div class="un-bold">Konga</div>
+            <div class="un-bold">Popular</div>
+            <div class="un-bold"><i class="fa fa-ellipsis-h"></i></div>
+        </div>
+
+        <div class="title">
+            <div class="un-bold">Product</div>
+            <div class="un-bold">#20695</div>
+            <div class="un-bold">category</div>
+            <div class="un-bold">XAF220,000</div>
+            <div class="un-bold">Konga</div>
+            <div class="un-bold">Popular</div>
+            <div class="un-bold"><i class="fa fa-ellipsis-h"></i></div>
+        </div>
+
+        <div class="title">
+            <div class="un-bold">Product</div>
+            <div class="un-bold">#20695</div>
+            <div class="un-bold">category</div>
+            <div class="un-bold">XAF220,000</div>
+            <div class="un-bold">Konga</div>
+            <div class="un-bold">Popular</div>
+            <div class="un-bold"><i class="fa fa-ellipsis-h"></i></div>
         </div>
     </div>
+
+
+
+
+
+
     
-    <div class="graph">
-
-    </div>
-
-    <div class="recent-orders">
-        <h4>Recent Oders</h4>
-        <table width="90%" >
-        <tr><th>User</th>
-            <th>Email</th>
-            <th>Amount</th>
-            <th>Transaction Id</th>
-            <th>Status</th>
-        </tr>
-        <tr class="tr" >
-            <td class="td"><img src="./Images/hand some successful man smiling.jpg" alt="" width="80px" height="60px" height="60px">&nbsp;&nbsp;<span class="bold">Yuven Carlson</span></td>
-            <td>yuvencarlsonhintekk@.com</td>
-            <td>XAF500</td>
-            <td>bce23nf7800p12cb1</td>
-            <td>Pending</td>
-        </tr>
-
-        <tr >
-            <td class="td"><img src="./Images/black man with hair.jpg" alt="" width="80px" height="60px">&nbsp;&nbsp;<span class="bold">Gerge Flody</span></td>
-            <td>george@agmedia.com</td>
-            <td>XAF500</td>
-            <td>bce23nf7800p12cb1</td>
-            <td>Confirmed</td>
-        </tr>
-
-        <tr class="tr">
-            <td class="td"><img src="./Images/chinese woman.jpg" alt="" width="80px" height="60px">&nbsp;&nbsp;<span class="bold">Morina Lucas</span></td>
-            <td>morina@amazon.com</td>
-            <td>XAF500</td>
-            <td>bce23nf7800p12cb1</td>
-            <td>Failed</td>
-        </tr>
-
-        <tr>
-            <td class="td"><img src="./Images/pretty lady standing .jpg" alt="" width="80px" height="60px">&nbsp;&nbsp;<span class="bold">Stephanie Lose</span></td>
-            <td>stephanie@amazon.com</td>
-            <td>XAF500</td>
-            <td>bce23nf7800p12cb1</td>
-            <td>Confirmed</td>
-        </tr>
-
-        <tr class="tr">
-            <td class="td"><img src="./Images/white man with headphone.jpg" alt="" width="80px" height="60px">&nbsp;&nbsp;<span class="bold">Audrey Adams</span></td>
-            <td>audreyadams@starbuck.com</td>
-            <td>XAF500</td>
-            <td>bce23nf7800p12cb1</td>
-            <td>Confirmed</td>
-        </tr>
-
-        <tr>
-            <td class="td"><img src="./Images/white woman with headphone.jpg" alt="" width="80px" height="60px">&nbsp;&nbsp;<span class="bold">Aron Lonner</span></td>
-            <td>aronlonner@hintekk.com</td>
-            <td>XAF500</td>
-            <td>bce23nf7800p12cb1</td>
-            <td>Confirmed</td>
-        </tr>
-
-        
-        <tr class="tr">
-            <td class="td"><img src="./Images/white woman with headphone.jpg" alt="" width="80px" height="60px">&nbsp;&nbsp;<span class="bold">David Peterson</span></td>
-            <td>aronlonner@hintekk.com</td>
-            <td>XAF500</td>
-            <td>bce23nf7800p12cb1</td>
-            <td>Confirmed</td>
-        </tr>
-
-        
-        <tr>
-            <td class="td"><img src="./Images/white woman with headphone.jpg" alt="" width="80px" height="60px">&nbsp;&nbsp;<span class="bold">David Peterson</span></td>
-            <td>david@macdonald.com</td>
-            <td>XAF500</td>
-            <td>bce23nf7800p12cb1</td>
-            <td>Confirmed</td>
-        </tr>
-        </table>
-        
-    </div>
-
 
 
 

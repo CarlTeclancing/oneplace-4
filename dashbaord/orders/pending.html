@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management</title>
+    <link rel="stylesheet" href="../css/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.5.2-web/css/fontawesome.min.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+           
+        }
+        .sidebar {
+            background-color: #070C90;
+            color: #fff;
+            width: 20%;
+          
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            line-height: 50px;
+            height: 720px;
+            text-align: center;
+           
+        }
+         .top-nav h2 {
+            margin-bottom: 20px;
+            color: #070C90;
+            padding-right: 30px;
+        }
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            margin-left: 40px;
+          
+        }
+        .sidebar a:hover {
+            background-color: #3949AB;
+            border-radius: 5px;
+            width: 100px;
+           
+           
+         
+        }
+        .sidebar a.active {
+            background-color: #FFD600;
+            color: #000;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100px;
+            height: 20px;
+            
+        }
+        .sidebar .sign-out {
+            margin-top: auto;
+            padding-top: 20px;
+            border-top: 1px solid #3949AB;
+        }
+        .bar{
+            width: 100%;
+            background-color: white;
+            margin-top: -16px;
+
+        }
+
+        .main-content {
+            flex-grow: 1;
+            background-color: white;
+            padding: 10px;
+        }
+        .top-nav{
+            width: 90.58%;
+            padding-top: 8px;
+            height: 70px;
+            padding-left:66px;
+            padding-right: 62px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            }
+            
+            .sub-container{
+                width: 75%;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .nationality, .profile{
+                width: 180px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .name{
+               color: rgba(69, 69, 69, 0.838);
+               font-size: 14px;
+            }
+            
+            .img{
+              border-radius: 30px;
+            }
+            .fa{
+              font-size: 18px;
+            }
+            .fa-search{
+                position: relative;
+                left: 300px;
+                
+            }
+            
+            .fa-bell{
+                color: orange;
+            }
+            .search-bar{
+                width: 310px;
+                padding-left: 12px;
+                height: 40px;
+                border: none;
+                outline: none;
+                border-radius: 6px;
+                background-color: #f6f6f681;
+            }
+            option{
+                font-weight: 500;
+            }
+            select{
+                width: 80px;
+                height: 24px;
+                border: none;
+            }
+       
+
+        .tabs {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .tabs a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border-bottom: 2px solid transparent;
+            margin-right: 20px;
+            font-weight: 600;
+        }
+
+        .tabs a.active {
+            border-bottom: 2px solid #1A237E;
+            color: #1A237E;
+        }
+        .tabs a:hover {
+            border-bottom: 2px solid #1A237E;
+            color: #1A237E;
+        }
+
+        .order-table {
+            width: 90%;
+            border-collapse: collapse;
+            margin-top: 25px;
+            margin-left: 36px;
+
+        }
+
+        .order-table th, .order-table td {
+            padding: 4px;
+            text-align: left;
+        }
+
+        .order-table th {
+            background-color: #f4f4f9;
+        }
+
+        .order-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tbody tr td img{
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+                    }
+
+        .status-confirmed {
+            color: green;
+        }
+        .status-confirmed span {
+            color: orangered;
+        }
+
+        .date-filter {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: -16px;
+        }
+
+        .date-filter input {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-left: 10px;
+            margin-right: 30px;
+        }
+        .entourage{
+            height: 50%;
+            
+        }
+
+
+
+
+
+
+
+
+       
+            
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>ONE PLACE</h2>
+        <nav>
+            <a href="../reports.html"><i class="fa fa-tachometer"></i>&nbsp;&nbsp;Dashboard</a>
+            <a href="#" class="active"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Order</a>
+            <a href="../product/products.html"><i class="fa fa-box"></i>&nbsp;&nbsp;Products</a>
+            <a href="../setting order.html"><i class="fa fa-cog"></i>&nbsp;&nbsp;Settings</a>
+        </nav>
+        <div class="sign-out">
+            <a href="#">Sign Out</a>
+        </div>
+    </div>
+
+       <div class="bar">
+    <div class="main-content">
+        <div class="top-nav"> 
+            <h2>ORDER</h2>
+            <div class="sub-container">
+                <div class="search">
+                 <i class="fa fa-search"></i><input type="text" class="search-bar" placeholder="search here...">
+                </div>
+                <div class="nationality">
+                    <img  src="profile/download (2).png" width="25px" alt="">
+                    <select>
+                        <option value="CMR">CMR(EN)</option>
+                        <option value="CMR">USA(EN)</option>
+                        <option value="CMR">NGR(EN)</option>
+                        <option value="CMR">CMR(EN)</option>
+                        <option value="CMR">CMR(EN)</option>
+                        <option value="CMR">CMR(EN)</option>
+                    </select>
+                </div>
+                <i class="fa fa-bell"></i>
+                <a href="../profile.html"><div class="profile">
+                    <img class="img" src="profile/1000_F_436635648_FpXmhy0oEc83c7TDtyX40u64sn48hBxn.jpg" width="50px" height="50px" alt="">&nbsp;&nbsp;
+                    <span>Heltonne<br><span class="name">Admin</span></span>
+                </div></a>
+            </div>
+        </div>
+    
+        <div class="tabs">
+            <a href="all orders.html">All Orders</a>
+            <a href="pending.html" class="active" >Pending Orders</a>
+            <a href="./completed order.html">Completed Orders</a>
+        </div>
+        <div class="date-filter">
+            <label for="start-date">From</label>
+            <input type="date" id="start-date">
+            <label for="end-date">To</label>
+            <input type="date" id="end-date">
+        </div>
+         <div class="entourage">
+        <table class="order-table">
+            <thead>
+                <tr>
+                    <th>Customer</th>
+                    <th>Address</th>
+                    <th>Price</th>
+                    <th>Transaction id</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="profile/1000_F_203421185_Zrp5UuZAqKhFSoLdTOx6xCdSWWKsupPJ.jpg" alt="customer"> Stephanie Lose</td>
+                    <td>Rue Joffre, Bonanjo, Douala</td>
+                    <td>XAF 500</td>
+                    <td>2632</td>
+                    <td class="status-confirmed"><span>● Rejected</span> </td>
+                    <td>06 June 2024</td>
+                    <td>▼</td>
+                </tr>
+                
+                <tr>
+                    <td><img src="profile/1000_F_436635648_FpXmhy0oEc83c7TDtyX40u64sn48hBxn.jpg" alt="customer"> Audrey Adams</td>
+                    <td>Avenue de la Liberte, Garoua</td>
+                    <td>XAF 500</td>
+                    <td>2635</td>
+                    <td class="status-confirmed"><span>● Rejected</span></td>
+                    <td>15 June 2024</td>
+                    <td>▼</td>
+          
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <link rel="stylesheet" href="">
+</body>
+</html>

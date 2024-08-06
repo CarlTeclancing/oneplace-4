@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Settings page</title>
+    <link rel="stylesheet" href="./css/setting order.css">
+    <link rel="stylesheet" href="./css/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome-free-6.5.2-web/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <div class="main-container">
+
+
+    <div class="main">
+        <div class="logos">
+            <img src="./Images/logo.png" alt="" width="90px">
+           </div>
+        <div class="sub-main">
+         <a href="./reports.html"><button class="btn"><i class="fa fa-tachometer"></i>&nbsp;&nbsp; Dashboard</button></a>
+         <a href="./orders/all orders.html"><button class="btn"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp; Order</button></a>
+         <a href="./product/products.html"><button class="btn"><i class="fa fa-box"></i>&nbsp;&nbsp;Product</button></a>
+         <a href="#"><button class="btn p"><i class="fa fa-cog"></i>&nbsp;&nbsp;Setting</button></a>
+        </div>
+        <div class="sub">
+            <div class="line"></div>
+            <button class="btn logout"><i class="fa fa-sign-out">&nbsp;&nbsp;</i>Log out</button>
+        </div>
+    </div>
+
+    <div class="container">
+
+       <div class="top-nav"> 
+        <h2>settings</h2>
+        <div class="sub-container">
+            <div class="search">
+             <i class="fa fa-search"></i><input type="text" class="search-bar" placeholder="search here...">
+            </div>
+            <div class="nationality">
+                <img  src="./Images/iplace images/CMR.png" width="25px" alt="">
+                <select>
+                    <option value="CMR">CMR(EN)</option>
+                    <option value="CMR">USA(EN)</option>
+                    <option value="CMR">NGR(EN)</option>
+                    <option value="CMR">CMR(EN)</option>
+                    <option value="CMR">CMR(EN)</option>
+                    <option value="CMR">CMR(EN)</option>
+                </select>
+            </div>
+            <div class="status">
+            <a href="./notifications.html"><i class="fa fa-bell"></i></a>
+        </div>
+            <div class="profile">
+                <img class="img" src="./Images/hand some successful man smiling.jpg" width="50px" height="50px" alt="">&nbsp;&nbsp;
+                <span>Tih Joseph<br><span class="name">Admin</span></span>
+            </div>
+        </div>
+    </div>
+     
+     
+    <div class="settings">
+      <a class="link active" href="">Orders</a>
+      <a class="link" href="./Product setting.html">Products</a>
+      <a class="link" href="./Notification setting.html">Notification</a>
+      <a class="link " href="./Product setting.html">Profile</a>
+    </div>
+
+    <h3>Customize your Orders</h3>
+<div class="first-orders">
+  <div class="all-orders">
+    <div class="F-tick">
+        <i class="fa fa-check"></i><h3>&nbsp;Enable Order Notification</h3>
+    </div>
+
+    <div class="order-notification">
+        <div class="mini">
+        <input type="checkbox" class="check">
+        <span class="New-orders">&nbsp;&nbsp; Recieve email alerts for new orders</span>
+    </div>
+        <div class="mini">
+        <input type="checkbox" class="check">
+        <span class="New-orders">&nbsp;&nbsp; Recieve SMS alerts for new orders</span>
+    </div>
+    </div>
+</div>
+
+<div class="all-orders">
+    <div class="tick">
+        <i class="fa fa-check"></i><h3>Order Cancellation</h3>
+    </div>
+     
+    <div class="order-notification">
+        <div class="mini">
+        <input type="checkbox" class="check">
+        <span class="New-orders">&nbsp;&nbsp; Allow customers to request order Cancellation</span>
+    </div>
+        <div class="mini">
+        <input type="checkbox" class="check">
+        <span class="New-orders">&nbsp;&nbsp;Notify customers about pending cancellation requests</span>
+    </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<div class="second-orders">
+     <div class="all-orders last-order">
+    <div class="tick">
+        <i class="fa fa-check"></i><h3>Order Status updates</h3>
+    </div>
+
+    <div class="order-notification">
+        <div class="mini">
+        <input type="checkbox" class="check">
+        <span class="New-orders">&nbsp;&nbsp; Automatically order status once confirmed</span>
+    </div>
+        <div class="mini">
+        <input type="checkbox" class="check">
+        <span class="New-orders">&nbsp;&nbsp; Automatically send shipment tracking &nbsp;&nbsp;&nbsp;information to customers</span>
+    </div>
+    </div>
+</div>
+<button class="save">Save changes</button>
+</div>
+    
+
+
+
+
+
+
+
+ 
+    
+
+
+
+
+
+    </div>
+</body>
+</html>
