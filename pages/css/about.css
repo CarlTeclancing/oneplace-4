@@ -275,3 +275,78 @@ body{
  h4{
    color: #070c90;
  }
+
+
+
+
+
+  
+ p{
+  font-size: 17px;
+}
+nav{
+    width: 97%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+.nav-element{
+   width: 40%;
+   height: 90px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav-element-mobile, .mobile {
+display: none;
+}
+.register{
+    width: 370px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.a, .deliver{
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 18px;
+}
+.p{
+    color:#FBBC05;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 2px solid #FBBC05;
+}
+.a:hover{
+    color: #FBBC05;
+    border-bottom: 2px solid #FBBC05;
+}
+nav{
+    font-size: 18px;
+}
+.sub-nav{
+    margin-left: 130px;
+    width: 75%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signup{
+    width: 130px;
+height: 38px;
+font-size: 18px;
+font-size: 16px;
+background-color: #FBBC05;
+color: white;
+margin-left: 20px;
+border-radius: 24px;
+border: none;
+}

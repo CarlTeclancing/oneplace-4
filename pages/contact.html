@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Oneplace</title>
+    <link rel="stylesheet" href="../dashbaord/css/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../dashbaord/css/fontawesome-free-6.5.2-web/css/fontawesome.min.css">
     <style>
         *{
             text-decoration: none;
@@ -12,7 +14,6 @@
         }
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
             padding: 0;
             background-color: white;
         }
@@ -101,9 +102,19 @@
             justify-content: space-around;
             padding: 40px 20px;
         }
+        .ro, .fab, .fas{
+            font-size: 38px;
+            color:#007BFF;
+        }
         .rectangle{
-            width: 70px;
-            height: 50px;
+            width: 80px;
+            height: 80px;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: orange;
+            font-size: 32px;
             background-color: #f1f1f1;
             margin-top: 5px;
             margin-left: 160px;
@@ -112,7 +123,7 @@
         }
         .box {
             background: #007BFF;
-            color: black;
+            color: white;
             padding: 5px;
             border-radius: 8px;
             text-align: center;
@@ -193,50 +204,164 @@
             color: black;
             font-weight: 900;
         }
+
+
+     
+        p{
+  font-size: 17px;
+}
+nav{
+    width: 97%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+.nav-element{
+   width: 40%;
+   height: 90px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav-element-mobile, .mobile {
+display: none;
+}
+.register{
+    width: 370px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.a, .deliver{
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 18px;
+}
+.p{
+    color:#FBBC05;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 2px solid #FBBC05;
+}
+.a:hover{
+    color: #FBBC05;
+    border-bottom: 2px solid #FBBC05;
+}
+nav{
+    font-size: 18px;
+}
+.sub-nav{
+    margin-left: 130px;
+    width: 75%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signUp{
+    width: 130px;
+height: 38px;
+font-size: 18px;
+font-size: 16px;
+background-color: #FBBC05;
+color: white;
+margin-left: 20px;
+border-radius: 24px;
+border: none;
+}
+
+.complete-footer{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+    height: 45%;
+    background-color: grey
+}
+.footer{
+width: 100%;
+display: flex;
+align-items: center;
+text-align: justify;
+justify-content: space-evenly;
+}
+.MyCart{
+    width: 160px;
+    height: 38px;
+    border-color: #fbbc05;
+    background-color: white;
+    color:#fbbc05;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
     </style>
 </head>
 <body>
 
-<header>
-
-    <center><h1> <button class="one"> one</button>place</h1></center>
-    <div class="contact">
-    <center><h2>CONTACT US</h2></center>
+    <nav class="desktop">
+    
+        <img src="./Images/logo.png" width="150px" alt="">
+        <div class="nav-element">
+          <div class="sub-elm">
+            <a class="deliver" href="">deliver to: <br><img src="./Images/iplace images/CMR.pngs" alt="">CM </a>
+            </div>
+         <div class="sub-elm">
+            <i class="fa fa-globe"></i>
+            <a class="a" href="">English-USD</a>      
+          </div>
+          <div class="sub-elm">
+                <i class="fa fa-user"></i>
+                <a class="a" href="">Sign in</a>
+          </div>
+          <button class="signUp">Register Now</button>
+        
+     </div>
+    </nav>
+    
+    <div class="sub-nav">
+        <div class="register">
+          <a class="a" href="../index.html">Home</a>
+          <a class="a" href="../pages/product.html">Product</a>
+          <a class="a" href="../pages/about.html">About</a>
+        </div>
+        <div class="register">
+          <a class="a p" href="">Contact Us</a>
+         <a class="a" href="../pages/services.html">Services</a>
+         <a class="a" href="#">Product Review</a>
+      </div>
     </div>
-    <div class="content-left">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">product</a></li>
-            <li><a href="#">product review</a></li>
-        </ul>
-    </div>
-
-    <div class="content-right">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">contact us</a></li>
-            <li><a href="#">Services</a></li>
-        </ul>
-    </div>
-</header>
-
+<br><br><br><br><br>
 <div class="container">
     
     <div class="box">
         <div class="rectangle">
+            <i class="fa fa-tablet"></i>
         </div>
         <h3>BY PHONE</h3>
         <p class="span">(Monday to Friday, 9 am to 6 pm PST) <br>
         North America toll- free <br>
         1-877-930-783 <br>
-        <br>
-        <br>
+    
         International <br>
         1-604-637-0789</p>
+        <button class="button">START HERE</button>
     </div>
     
     <div class="box">
         <div class="rectangle">
+            <i class="fa fa-user"></i>
         </div>
         <h3>START A NEW PURCHASE</h3>
         <p class="span">Just send your question <br> or concern by starting a <br> new case and we will give <br> you the help you need.</p>
@@ -245,6 +370,7 @@
     
     <div class="box">
         <div class="rectangle">
+            <i class="fa fa-comment"></i>
         </div>
         <h3>LIVE CHAT</h3>
         <p class="spann">Chat with a member of our  <br>in-house team</p>
@@ -257,28 +383,26 @@
     <p>we accept the following <br>
              payment method
     </p>
-    <br>
-    <br>
+    <i class="ro fa fa-store"></i>
     <p>find a le creust store <br>
                near your0
-    </p>
-    <br>
-    <br>
+    </p><br>
+    <i class="ro fa fa-shopping-bag"></i>
     <p>see all le creuset <br>
              stores
     </p>
+    
 </div>
 
 <div class="under">
     <p>Need help? Gte in touch <br>
     </p>
-    <br>
-    <br>
+    <i class="ro fa fa-phone"></i>
     <p>call us <br>
         +440800373792     
+        <br>
     </p>
-    <br>
-    <br>
+    <i class="ro fa fa-envelope"></i>
     <p>Send us Email <br>
     </p>
 </div>
@@ -287,74 +411,59 @@
 <div class="under">
     <p>Country & language <br>
              united kindomn english
-    </p>
-    <br>
-    <br>
+    </p><br>
+    <i class="fab fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-twitter"></i>
     <p>Social media <br>
                
     </p>
-    <br>
-    <br>
+    <i class="fas fa-credit-card"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-shopping-basket"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-shopping-cart"></i>
     <p>follow for more buying and selling of some kind <br>
              of goods services you my be needing
     </p>
 </div>
 </div>
-<footer>
-    <center><h1> <button class="one"> one</button>place</h1></center>
-    
-    <div class="section">
-        <p>Shop with ease and security at one place.com where you <br>
-            get the best from the world class reviewed and tested <br>
-            product
-        </p>
-    </div>
-    <div class="foter">
-    <div class="section">
-        <p>Trade Assurance  <br>
-            <br>
-        safe easy payement <br>
-        <br>
-        Money-back policy <br>
-        <br>
-        on-time shipping <br>
-        <br>
-        after-sales protection <br>
-        <br>
-        product monitoring services <br>
-        </p>
 
-    </div>
-    <div class="section">
-        <p>Get support  <br>
-            <br>
-        help center <br>
-        <br>
-        live chat <br>
-        <br>
-        check order status <br>
-        <br>
-        refunds <br>
-        <br>
-        report abuse <br>
-        </p>
 
-    </div>
-    <div class="section">
-        <p>more informaton  <br>
-            <br>
-        we offer secured payement zith 30 days <br>
-        money back guarantee
-        </p>
 
-    </div>
+ <!--FOOTER-->
+ <div class="complete-footer">
 
-    </div>
-    
-      <nav class="reserved">
-     <p> © 2024 Oneplace. All Rights Reserved.</p>
-    </nav>
-</footer>
+    <div class="footer">
+       <div class="left-footer">
+           <img src="./Images/logo.png" alt=""width="150px">
+           <p>shop with ease and security at oneplace.com <br>
+               where you get the best from the world class reveiwed and tested <br>
+           products</p>
+       </div>
+
+       <div class="left-footer">
+            <h3>Trade assurance</h3>
+           <p>Safe and easy payment</p>
+           <p>Money-back policy </p>
+           <p>On-time shopping</p>
+           <p>After-sales protection</p>
+           <p>Product monitoring services</p>
+       </div>
+
+       <div class="left-footer">
+           <h3>Get Support</h3>
+          <p>Help center</p>
+          <p>Live chat</p>
+          <p>Checked order status</p>
+          <p>Refunds</p>
+          <p>Report abuse</p>
+      </div>
+
+      <div class="left-footer">
+       <h3>More Information</h3>
+      <p>We offer secure payments with  30days <br>
+   money back guarantee</p>
+   <button class="MyCart">My Cart</button>
+  </div>
+</div>
+
+<i>Copyright©2024-Designed by Nephus</i>
+</div>
 
 </body>
 </html>

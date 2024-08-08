@@ -24,7 +24,6 @@ body{
     color: white;
     position: relative;
     text-align: center;
-    margin-top: -50px;
     padding: 24px;
     background-size: cover;
     background-image: url("./Rectangle\ 200.jpg");
@@ -32,7 +31,7 @@ body{
 
   .card {
     background-color: white;
-    border: solid;
+    border: 1px solid rgb(52, 52, 52);
     border-radius: 10px;
     width: 400px;
     height: 300px;
@@ -40,13 +39,16 @@ body{
     margin-top: 10px;
   }
   .container {
+    width: 100%;
     display: flex;
+    justify-content: space-evenly;
     gap: 10px;
   }
   .container-2 {
+    width: 100%;
     display: flex;
-    gap: 10px;
-  }
+    justify-content: space-evenly;
+    gap: 10px;  }
   img {
     border-radius: 10px;
     width: 275px;
@@ -62,15 +64,19 @@ body{
     text-align: left;
     font-size: 24px;
   }
-  p {
-    text-align: left;
+  .pi {
+    text-align: justify;
+    color: rgb(159, 159, 159);
   }
   .paragraph {
     text-align: right;
     font-size: 24px;
   }
   .context {
-    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    text-align: justify;
   }
   span{
     width: 50px;
@@ -86,7 +92,7 @@ body{
     width: 100px;
     height: 100px;
   }
-  .footer {
+  .footer1 {
     color: white;
     padding-top: 4px;
     background-color: #070c90;
@@ -135,4 +141,105 @@ body{
   i{
       
   }
+
+
+
+  p{
+    font-size: 17px;
+  }
+  nav{
+      width: 97%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: black;
+      font-size: 17px;
+      text-decoration: none;
+  }
+  .nav-element{
+     width: 45%;
+     height: 90px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+  }
+  .nav-element-mobile, .mobile {
+  display: none;
+  }
+  .register{
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly
+  }
+  .a, .deliver{
+      text-decoration: none;
+      color: rgb(249, 209, 209);
+      padding-left: 8px;
+      padding-right: 8px;
+      font-size: 18px;
+  }
+  .p{
+      color:#FBBC05;
+      font-weight: 600;
+      font-size: 20px;
+      border-bottom: 2px solid #FBBC05;
+  }
+  .a:hover{
+      color: #FBBC05;
+      border-bottom: 2px solid #FBBC05;
+  }
+  nav{
+      font-size: 18px;
+  }
+  .sub-nav{
+      margin-left: 80px;
+      width: 95%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .signUp{
+  width: 130px;
+  height: 38px;
+  font-size: 18px;
+  font-size: 16px;
+  background-color: #FBBC05;
+  color: white;
+  margin-left: 20px;
+  border-radius: 24px;
+  border: none;
+  }
   
+  
+
+  
+.complete-footer{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  height: 45%;
+  background-color: grey
+}
+.footer{
+width: 100%;
+display: flex;
+align-items: center;
+text-align: justify;
+justify-content: space-evenly;
+}
+.MyCart{
+  width: 160px;
+  height: 38px;
+  border-color: #fbbc05;
+  background-color: white;
+  color:#fbbc05;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
